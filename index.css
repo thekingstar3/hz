@@ -42,3 +42,28 @@ div.header {
   .text {
     margin-left: 10px; 
   }
+  ol {
+    list-style-type: decimal;
+    margin: 30px;
+    padding: 60px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    background-color: rgb(206, 206, 206);
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
