@@ -5,42 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="index.css" rel="stylesheet">
+    <link href="general.css" rel="stylesheet">
+    <title>Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <img src="https://fp-static.wondershare.com/bgremove/matting/2023/09/07/technical/213203/PixCut-removebg_thumbnail.png" style="float: right;"
-        width="100"
-        height="90">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a class="active" href="dashboard.html">Dashboard</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
       </div>
       <div class="panel left"> 
-        <h3 class="text"><b>More information:</b></h3>
-        <ul>
-        <p>
-          <li>
-          <a href="index.html">Home Page</a>
-        </li>
-      </p>
-        <p>
-          <li>
-            <a href="profile.html">Profile</a>
-          </li>
-        </p>
-        <p>
-          <li>
-            <a href="faq.html">FAQ</a>
-          </li>
-        </p>
-        <p>
-          <li>
-            <a href="blog.html">Blog</a>
-          </li>
-        </p>
-      </ul>
       </div>
       <div class="mainbody">
         <h1>Dashboard</h1>
+        <div class="fixed">
+            <img src="hzlogo.png"
+              width="150"
+              height="150">
+              </div>
         <table>
           <tr>
               <th>Test code</th>
@@ -58,7 +45,7 @@
               <td>Assessment webite</td>
               <td>100%</td>
               <td>5.5</td>
-              <td>S1.5, S1.6 & S1.10</td>
+              <td>S1.5, S1.6 and S1.10</td>
           </tr>
           <tr>
               <td>TOETS01 (VT)</td>
@@ -66,7 +53,7 @@
               <td>Written exam</td>
               <td>100%</td>
               <td>5.5</td>
-              <td>S1.10 & S1.15</td>
+              <td>S1.10 and S1.15</td>
           </tr>
           <tr>
               <td>TOETS01 (VT)</td>
@@ -74,7 +61,7 @@
               <td>Case study</td>
               <td>100%</td>
               <td>5.5</td>
-              <td>S1.10 & S1.15</td>
+              <td>S1.10 and S1.15</td>
           </tr>
           <tr>
               <td>TOETS01 (VT)</td>
@@ -82,7 +69,7 @@
               <td>Group assignment</td>
               <td>50%</td>
               <td>5.5</td>
-              <td>S1.15 & S1.20</td>
+              <td>S1.15 and S1.20</td>
           </tr>
           <tr>
               <td>TOETS02  (VT)</td>
@@ -90,7 +77,7 @@
               <td>Case study exam</td>
               <td>50%</td>
               <td>5.5</td>
-              <td>S1.20 & S2.3</td>
+              <td>S1.20 and S2.3</td>
           </tr>
           <tr>
               <td>TOETS01 (VT)</td>
@@ -98,7 +85,7 @@
               <td>On-site case study exam</td>
               <td>50%</td>
               <td>5.5</td>
-              <td>S2.5 & S2.10</td>
+              <td>S2.5 and S2.10</td>
           </tr>
           <tr>
               <td>TOETS02 (VT)</td>
@@ -106,7 +93,7 @@
               <td>Database exam</td>
               <td>12%</td>
               <td>5.5</td>
-              <td>S2.7 & S2.10</td>
+              <td>S2.7 and S2.10</td>
           </tr>
           <tr>
               <td>TOETS03 (VT)</td>
@@ -114,7 +101,7 @@
               <td>Group presentation on project result</td>
               <td>25%</td>
               <td>5.5</td>
-              <td>S2.10 & S2.12</td>
+              <td>S2.10 and S2.12</td>
           </tr>
           <tr>
           
@@ -123,7 +110,7 @@
               <td>Final delivery</td>
               <td>25%</td>
               <td>5.5</td>
-              <td>S2.19 & S2.20</td>
+              <td>S2.19 and S2.20</td>
           </tr>
           <tr>
           
@@ -132,7 +119,7 @@
               <td>Report of acceptance tests and optional assessments</td>
               <td>25%</td>
               <td>5.5</td>
-              <td>S2.19 & S2.20</td>
+              <td>S2.19 and S2.20</td>
           </tr>
           <tr>
           
@@ -141,7 +128,7 @@
               <td>IT Development portfolio</td>
               <td>50%</td>
               <td>5.5</td>
-              <td>S2.19 & S2.20</td>
+              <td>S2.19 and S2.20</td>
           </tr>
           <tr>
           
@@ -150,7 +137,7 @@
               <td>Video</td>
               <td>100%</td>
               <td>5.5</td>
-              <td>S2.19 & S2.20</td>
+              <td>S2.19 and S2.20</td>
           </tr>
           <tr>
           
@@ -197,9 +184,12 @@
               <td>P/NP7</td>
               <td>See learn</td>
           </tr>
-      
       </table>
-      
+      <title>Progress tag</title>
+              <body>
+                  <p class="groove">0 out of 17 exams passed</p>
+                  <progress style="margin: 10px;" value="0" max="17"></progress>
+              </body>
       </div>
       <div class="footer">
       </div>
