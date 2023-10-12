@@ -1,0 +1,33 @@
+  h2:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
+    color:blue;
+  }
+  
+  .faq-item {
+    border: 1px solid black;
+    border-style: groove;
+  }
+  
+  .question-toggle {
+    display: none;
+  }
+  
+  .question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .answer {
+    display: none;
+  }
+  
+  .question-toggle:checked + .question {
+    color: blue;
+    text-decoration: underline; 
+  }
+  
+  .question-toggle:checked + .question + .answer {
+    display: block;
+  }

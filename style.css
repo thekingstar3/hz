@@ -20,34 +20,6 @@ table, th, td {
   font-size: 14pt;
 }
 
-.faq-item {
-  border: 1px solid black;
-  border-style: groove;
-}
-
-.question-toggle {
-  display: none;
-}
-
-.question {
-  cursor: pointer;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.answer {
-  display: none;
-}
-
-.question-toggle:checked + .question {
-  color: blue;
-  text-decoration: underline; 
-}
-
-.question-toggle:checked + .question + .answer {
-  display: block;
-}
-
 div.paragraph1 {
   background-color: rgb(182, 204, 254);
   border: 1px solid black;
