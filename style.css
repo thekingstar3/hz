@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h3 {
   color: black;
   text-decoration: underline;
@@ -46,4 +47,81 @@ div.paragraph3 {
 progress {
   width: 400px;
   height: 20px;
+=======
+h3 {
+  color: black;
+  text-decoration: underline;
+  font-size: 16pt;
+  }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 40px;
+  font-size: 24pt;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 30px;
+  font-size: 14pt;
+}
+
+.faq-item {
+  border: 1px solid black;
+  border-style: groove;
+}
+
+.question-toggle {
+  display: none;
+}
+
+.question {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.answer {
+  display: none;
+}
+
+.question-toggle:checked + .question {
+  color: blue; 
+}
+
+.question-toggle:checked + .question + .answer {
+  display: block;
+}
+
+div.paragraph1 {
+  background-color: rgb(182, 204, 254);
+  border: 1px solid black;
+  border-style: groove;
+}
+
+div.paragraph2 {
+  background-color: rgb(193, 211, 254);
+  border: 1px solid black;
+  border-style: groove;
+}
+
+div.paragraph3 {
+  background-color: rgb(204, 219, 253);
+  border: 1px solid black;
+  border-style: groove;
+}
+
+.groove {
+  font-size: 16pt;
+  margin: 20px;
+}
+
+progress {
+  width: 400px;
+  height: 20px;
+>>>>>>> afec9415cbca2f3313117f007c7595231aa865b3
 }
